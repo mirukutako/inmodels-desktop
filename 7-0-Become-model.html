@@ -141,8 +141,8 @@
                 </a>
                 <div class="navigation-link header-links">
                   <div class="navigation-link-wrap">
-                    <a class="navigation-link__item" href="/6-0-contacts.html">Business request</a>
                     <a class="navigation-link__item" href="/7-0-Become-model.html">Become a model</a>
+                    <a class="navigation-link__item" href="/6-0-contacts.html">Business request</a>
                   </div>
                 </div>
               </div>
@@ -221,7 +221,7 @@
                               <div class="form-block__title">Сontacts</div>
                               <div class="input-row">
                                 <div class="input-item c2">
-                                  <input class="input-field" type="tel" id="model-phone">
+                                  <input class="input-field" type="tel" pattern=".+[0-9]" id="model-phone">
                                   <label class="input-label" for="model-email">Phone</label>
                                 </div>
                                 <div class="input-item c2">
@@ -275,51 +275,43 @@
                               <div class="input-row">
                                 <div class="input-item c2 drop-item" action="/upload">
                                   <div class="dz-message">
-                                    <div class="input-label">
-                                      <span class="drop-item__icon">
-                                        <svg class="cross">
-                                          <use xlink:href="#cross"></use>
-                                        </svg>
-                                      </span>
-                                      <input class="input-field" type="hidden" id="photos" data-validation="required" data-validation-error-msg="required upload file">
-                                      <div class="input-label">Add photo face</div>
-                                    </div>
+                                    <span class="drop-item__icon">
+                                      <svg class="cross">
+                                        <use xlink:href="#cross"></use>
+                                      </svg>
+                                    </span>
+                                    <input class="input-field" type="hidden" id="photos" data-validation="required" data-validation-error-msg="required upload file">
+                                    <div class="input-label">Add photo face</div>
                                   </div>
                                 </div>
                                 <div class="input-item c2 drop-item" action="/upload">
                                   <div class="dz-message">
-                                    <div class="input-label">
-                                      <span class="drop-item__icon">
-                                        <svg class="cross">
-                                          <use xlink:href="#cross"></use>
-                                        </svg>
-                                      </span>
-                                      <div class="input-label">Add profile photo</div>
-                                    </div>
+                                    <span class="drop-item__icon">
+                                      <svg class="cross">
+                                        <use xlink:href="#cross"></use>
+                                      </svg>
+                                    </span>
+                                    <div class="input-label">Add profile photo</div>
                                   </div>
                                 </div>
                                 <div class="input-item c2 drop-item" action="/upload">
                                   <div class="dz-message">
-                                    <div class="input-label">
-                                      <span class="drop-item__icon">
-                                        <svg class="cross">
-                                          <use xlink:href="#cross"></use>
-                                        </svg>
-                                      </span>
-                                      <div class="input-label">Add photo 3/4</div>
-                                    </div>
+                                    <span class="drop-item__icon">
+                                      <svg class="cross">
+                                        <use xlink:href="#cross"></use>
+                                      </svg>
+                                    </span>
+                                    <div class="input-label">Add photo 3/4</div>
                                   </div>
                                 </div>
                                 <div class="input-item c2 drop-item" action="/upload">
                                   <div class="dz-message">
-                                    <div class="input-label">
-                                      <span class="drop-item__icon">
-                                        <svg class="cross">
-                                          <use xlink:href="#cross"></use>
-                                        </svg>
-                                      </span>
-                                      <div class="input-label">Add photo in full length</div>
-                                    </div>
+                                    <span class="drop-item__icon">
+                                      <svg class="cross">
+                                        <use xlink:href="#cross"></use>
+                                      </svg>
+                                    </span>
+                                    <div class="input-label">Add photo in full length</div>
                                   </div>
                                 </div>
                                 <div class="input-item input-textarea">
@@ -372,8 +364,8 @@
           <div class="modal-menu-inner">
             <div class="navigation-link quest-links">
               <div class="navigation-link-wrap">
-                <a class="navigation-link__item modal-link" href="6-0-contacts.html">Business request</a>
                 <a class="navigation-link__item modal-link" href="7-0-Become-model.html">Become a model</a>
+                <a class="navigation-link__item modal-link" href="6-0-contacts.html">Business request</a>
               </div>
             </div>
             <div class="pages-links">
